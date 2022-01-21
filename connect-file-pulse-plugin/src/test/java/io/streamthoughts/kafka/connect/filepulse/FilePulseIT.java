@@ -23,12 +23,14 @@ import io.restassured.parsing.Parser;
 import io.restassured.response.Response;
 import io.streamthoughts.kafka.connect.filepulse.source.FilePulseSourceConnector;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.*;
 import java.util.List;
 import java.util.Map;
 
+@Ignore
 public class FilePulseIT extends AbstractKafkaConnectTest {
 
     @Test
